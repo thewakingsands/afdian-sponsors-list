@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "tsc -w",
     "start": "node dist/app.js",
-    "build": "yarn"
+    "build": "tsc"
   },
   "dependencies": {
     "@ainou/code-style": "^0.0.15",
