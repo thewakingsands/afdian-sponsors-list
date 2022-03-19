@@ -12,7 +12,12 @@
     "removeComments": false,
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
-    "lib": ["ESNext", "dom"]
+    "lib": [
+      "ESNext",
+      "dom"
+    ]
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

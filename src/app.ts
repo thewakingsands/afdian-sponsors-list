@@ -14,7 +14,7 @@ async function buildFastify(
   options: FastifyServerOptions = {},
 ): Promise<FastifyInstance> {
   const fastify = createFastify({
-    logger: { prettyPrint: true, prettifier },
+    logger: { prettyPrint: true, prettifier } as any,
     ...options,
   })
 
