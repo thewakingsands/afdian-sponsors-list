@@ -1,0 +1,31 @@
+{
+  "name": "afdian-sponsor-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "node dist/app.js",
+    "build": "yarn"
+  },
+  "dependencies": {
+    "@ainou/code-style": "^0.0.15",
+    "@mgcrea/pino-pretty-compact": "^0.5.0",
+    "dotenv": "^16.0.0",
+    "fastify": "^3.27.4",
+    "fastify-cors": "^6.0.3",
+    "fastify-http-errors-enhanced": "^3.0.6",
+    "http-errors-enhanced": "^1.0.6",
+    "ohmyfetch": "^0.4.15"
+  },
+  "devDependencies": {
+    "@types/node": "16",
+    "@types/pino": "^7.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "prettier": "^2.6.0",
+    "typescript": "^4.6.2"
+  },
+  "packageManager": "yarn@3.2.0"
+}
