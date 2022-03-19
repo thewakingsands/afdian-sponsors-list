@@ -1,6 +1,6 @@
 FROM node:16 AS builder
 WORKDIR /app
-COPY package.json yarn.lock .yarn /app/
+COPY . /app/
 RUN yarn
 COPY . /app/
 RUN yarn build && yarn workspaces focus --all --production

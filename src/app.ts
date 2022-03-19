@@ -50,7 +50,7 @@ async function start() {
       .send(body)
   })
 
-  await app.listen(process.env.PORT || 8809)
+  await app.listen(process.env.PORT || 8809, process.env.HOST)
 }
 
 start().catch(console.error)
